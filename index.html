@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Portal</title>
+    <link rel="icon" href="group.png">
+</head>
+<body>
+    <header>
+        <h1 id="header-text">Student Portal</h1>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search" class="search-bar">
+            <button id="search-button" class="search-button">Search</button>
+        </div>
+        <div class="button-container">
+            <button id="sort-az" class="rectangular-button">Sort A→Z</button>
+            <button id="sort-za" class="rectangular-button">Sort Z→A</button>
+            <button id="sort-marks" class="rectangular-button">Sort by Marks</button>
+            <button id="sort-passing" class="rectangular-button">Sort by Passing</button>
+            <button id="sort-class" class="rectangular-button">Sort by Class</button>
+            <button id="sort-gender" class="rectangular-button">Sort by Gender</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="student-data">
+               
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
